@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
                 str=str.replaceAll("ln","l");
                 str=str.replaceAll("n!","!");
                 vbegin=true;
-                str_new=str.replaceAll("-","-lx");
+                str_new=str.replaceAll("-","-1x");
                 new calc().process(str_new);
             }
             tip_lock=true;
